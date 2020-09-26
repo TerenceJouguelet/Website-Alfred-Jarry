@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Pharos Argus - L'œuvre d'Alfred Jarry</title>
+		<link rel="stylesheet" type="text/css" href="Style/reset.css">
+		<link rel="stylesheet" type="text/css" href="Style/Pharos.css">
+	</head>
+
+	<body>
+		<header>
+			<img src="Images/Logo.png" alt="logo" class="logo logoPrincipale"/>
+			<nav role="navigation" id="menu_principal">
+				<ul class="box_ligne">
+					<li>
+						<a href="index.html">
+							ACCUEIL
+						</a>
+					</li>
+					
+					<li><a>ŒUVRES</a>
+						<ul class="sous_menu">
+							<li><a href="Pharos-ubu-roi.html">Ubu roi</a></li>
+							<li><a>Le Surmâle</a></li>
+							<li><a>L'Ymagier</a></li>
+						</ul>
+					</li>
+					
+					<li>
+						<a href="pataphysique.html">
+							ANALYSES
+						</a>
+					</li>
+					
+					<li>
+						<a href="Inscription.html">
+							S'INSCRIRE
+						</a>
+					</li>
+					
+					<li>
+						<a href="Chatbox.html">
+							CHATBOX
+						</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div id="citation_alea">
+				<span>Citation Aléatoire : </span>
+				"La pataphysique sera surtout la science du particulier, quoiqu’on dise qu’il n’y a de science que du général."
+				<br />
+				<div class="OrigineCitation"> <em class="oeuvre">Gestes et opinions du docteur Faustroll, pataphysicien</em>, ch. VIII.</div>
+				<button>UNE AUTRE</button>
+			</div>
+		</header>
+		<section>
+			<div class="titre_block">
+				<h1>
+					INSCRIPTION
+				</h1>
+			</div>
+			
+			<form action="htbin/register.py" method="post" id="inscrir" >
+				<div>
+					<label for="nom">Nom :</label>
+					<input type="text" name="lastname" class="default" id="nom">
+					<span id="erreur-nom" class="erreur"> </span>
+				</div>
+				<div>
+					<label for="prenom">Prenom :</label>
+					<input type="text" name="firstname" class="default" id="prenom">
+					<span id="erreur-prenom" class="erreur"> </span>
+				</div>
+				<div>
+					<label for="date">Date de naissance :</label>
+					<input type="text" name="birthdate" class="default" id="date">
+					<span id="erreur-date" class="erreur"> </span>
+				</div>
+				<div>
+					<label for="user">Nom d'utilisateur :</label>
+					<input type="text" name="username" class="default" id="user">
+					<span id="erreur-user" class="erreur"> </span>
+				</div>
+				<div>
+					<label for="mdp">Mot de passe :</label>
+					<input type="password" name="userpwd" class="default" id="mdp">
+					<span id="erreur-mdp" class="erreur"> </span>
+				</div>
+				<div>
+					<label for="useremail">Adresse email :</label>
+					<input type="text" name="useremail" class="default" id="useremail">
+					<span id="erreur-mail" class="erreur"> </span>
+				</div>
+			 
+				<div class="button">
+					<button type="submit">OKAY</button>
+				</div>
+			</form>
+		</section>
+
+		<footer>
+                <img src="Images/Gidouille.png" alt="logo" class="logo"/>
+                    version 3.0<br />
+                    <br />
+                    &copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;!!!!!!!!!!!!!!<br />
+                    all rights reserved
+					<br />
+						Cette Page utilise le JavaScript
+					<br />
+		</footer>
+		<script type = "text/javascript" src = "JavaScript/inscription.js">
+			
+		</script>
+	</body>
+</html>

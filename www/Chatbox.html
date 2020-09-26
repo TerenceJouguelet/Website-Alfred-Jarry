@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Pharos Argus - L'œuvre d'Alfred Jarry</title>
+		<link rel="stylesheet" type="text/css" href="Style/reset.css">
+		<link rel="stylesheet" type="text/css" href="Style/Pharos.css">
+	</head>
+
+	<body>
+		<header>
+			<img src="Images/Logo.png" alt="logo" class="logo logoPrincipale"/>
+			<nav role="navigation" id="menu_principal">
+				<ul class="box_ligne">
+					<li>
+						<a href="index.html">
+							ACCUEIL
+						</a>
+					</li>
+					
+					<li><a>ŒUVRES</a>
+						<ul class="sous_menu">
+							<li><a href="Pharos-ubu-roi.html">Ubu roi</a></li>
+							<li><a>Le Surmâle</a></li>
+							<li><a>L'Ymagier</a></li>
+						</ul>
+					</li>
+					
+					<li>
+						<a href="pataphysique.html">
+							ANALYSES
+						</a>
+					</li>
+					
+					<li>
+						<a href="Inscription.html">
+							S'INSCRIRE
+						</a>
+					</li>
+					
+					<li>
+						<a href="Chatbox.html">
+							CHATBOX
+						</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div id="citation_alea">
+				<span>Citation Aléatoire : </span>
+				"La pataphysique sera surtout la science du particulier, quoiqu’on dise qu’il n’y a de science que du général."
+				<br />
+				<div class="OrigineCitation"> <em class="oeuvre">Gestes et opinions du docteur Faustroll, pataphysicien</em>, ch. VIII.</div>
+				<button>UNE AUTRE</button>
+			</div>
+		</header>
+		<section>
+			<div class="titre_block">
+				<h1>
+					SHOUTBOX
+				</h1>
+			</div>
+			
+			<article>
+				<div class="box_colonne">
+						
+						<aside id="chatbox">
+
+						</aside>
+						<form action="htbin/chatsend.py" method="post" id="envoyer" class="box_colonne">
+								<label for="message_envoyer">Message :</label>
+								<textarea name="message" class="default" id="message_envoyer" maxlength = "200"></textarea>
+				
+							<div class="button">
+								<button type="submit" id="envoyer_bouton">ENVOYER</button>
+							</div>
+						</form>
+				</div>
+			</article>
+			
+			
+		</section>
+
+		<footer>
+                <img src="Images/Gidouille.png" alt="logo" class="logo"/>
+                    version 3.0<br />
+                    <br />
+                    &copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;&copy;!!!!!!!!!!!!!!<br />
+                    all rights reserved
+					<br />
+						Cette Page utilise le JavaScript
+					<br />
+        </footer>
+		<script src = "JavaScript/jquery.js">
+			
+		</script>
+        <script type = "text/javascript" src = "JavaScript/chatbox.js">
+			
+		</script>
+	</body>
+</html>
